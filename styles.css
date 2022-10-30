@@ -163,10 +163,11 @@ hr {
 
 .footer {
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
     color: black;
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .footer .link {
