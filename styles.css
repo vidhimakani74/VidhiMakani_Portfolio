@@ -161,6 +161,16 @@ hr {
     color: var(--primary-color);
 }
 
+/* about  */
+
+.about-img{
+    max-width: 50%;
+    width: 350px;
+    display: block;
+    margin: auto;
+    padding-bottom: 0%;
+    
+}
 
 /** sections **/
 
@@ -179,6 +189,10 @@ hr {
     margin: 25px;
 }
 
+.w{
+    border-radius: 2rem;
+    margin: 25px; 
+}
 .section .ow .highlight{
     color: var(--primary-color);
 }
@@ -247,7 +261,9 @@ hr {
 .hero .hero-heading-blog {
     text-align: center;
     font-size:170%;
-    padding-top: 0rem;
+    padding-top:0.001cm;
+    padding-bottom:0.001cm;
     color: var(--dark-gray);
+    margin:0em;
 }
 
