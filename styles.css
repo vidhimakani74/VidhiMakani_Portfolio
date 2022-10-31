@@ -156,6 +156,12 @@ hr {
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+.heading-inverted {
+    color: var(--primary-color);
+}
+
+
 /** sections **/
 
 .section {
@@ -215,7 +221,8 @@ hr {
     margin-right: 25%;
     margin-top: 25px;
     margin-bottom: 25px;
-    padding:20px;
+    padding-top:20px;
+    padding-bottom: 25px;
     
 }
 
@@ -236,4 +243,11 @@ hr {
     padding-bottom: 6rem;
 }
 
+
+.hero .hero-heading-blog {
+    text-align: center;
+    font-size:170%;
+    padding-top: 0rem;
+    color: var(--dark-gray);
+}
 
