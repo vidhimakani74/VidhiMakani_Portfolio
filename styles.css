@@ -94,20 +94,13 @@ hr {
 /** navigation **/
 
 .navigation {
-    /* background-color: var(--primary-color);
+    background-color: var(--primary-color);
     color: black;
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    margin:0.5%; */
-    background-color: #000000;
-  color: white;
-  padding: 0.5rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom: 1px solid #8300b8;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+    margin:0.5%;
+   
 }
 
 .navigation .nav-brand {
