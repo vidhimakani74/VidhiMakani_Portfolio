@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;1,300&family=Roboto:ital,wght@0,400;1,100&display=swap");
 
 :root {
     --primary-color: #0891b2;
@@ -9,10 +9,11 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Mali", cursive;
     font-weight: 400;
     font-size: 16px;
     margin: 0px
+    
 }
 
 hr {
@@ -93,16 +94,24 @@ hr {
 /** navigation **/
 
 .navigation {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color);
     color: black;
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    margin:0.5%;
+    margin:0.5%; */
+    background-color: #000000;
+  color: white;
+  padding: 0.5rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom: 1px solid #8300b8;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .navigation .nav-brand {
-    font-family: "Dancing Script rev=1";
+    font-family: "Mali", cursive;
     font-weight: bold;
     text-align: left;
     font-size: 200%;
