@@ -9,15 +9,27 @@
 }
 
 body {
+    background-color: black;
     font-family: "Mali", cursive;
     font-weight: 400;
     font-size: 16px;
     margin: 0px
     
+   
+    
+}
+
+h3{
+    color: #f3f4f6;
 }
 
 hr {
     margin: 2rem 0rem;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
 /** spaces **/
@@ -41,6 +53,7 @@ hr {
     box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin: 0.5rem;
 }
 
 .link-primary1 {
@@ -87,19 +100,25 @@ hr {
 }
 
 .list-item-inline {
+    text-align: right;
     display: inline;
     padding: 0rem 0.5rem;
+   
 }
 
 /** navigation **/
 
 .navigation {
-    background-color: var(--primary-color);
-    color: black;
+    background-color: black;
+     color: #f3f4f6;
+    /* color:black; */
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
+    border-bottom: 2px solid #0891b2;
     border-bottom-right-radius: 1rem;
-    margin:0.5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
    
 }
 
@@ -108,23 +127,26 @@ hr {
     font-weight: bold;
     text-align: left;
     font-size: 200%;
-    padding-top: 2%;
-    padding-left: 3%
+    text-align: right;
    
 }
 
 .navigation .nav-pills {
-    
     text-align: right;
 }
 
 .navigation .link {
-    color: black;
+    /* color: #f3f4f6; */
+    color:black;
+    align-content: flex-end;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: right;
 }
 
 .navigation .link-active {
     font-weight: bold;
-    font-size:  130%
+    font-size:  100%
 }
 
 /** header **/
@@ -212,7 +234,7 @@ hr {
 }
 
 .footer .link {
-    color: black
+    color:white
 }
 
 .footer .footer-header {
