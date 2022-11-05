@@ -136,8 +136,8 @@ li {
 }
 
 .navigation .link {
-    /* color: #f3f4f6; */
-    color:black;
+    color: #f3f4f6;
+    /* color:black; */
     align-content: flex-end;
     padding: 0.5rem;
     margin: 0.5rem;
