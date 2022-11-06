@@ -98,6 +98,10 @@ li {
 }
 
 .list-item-inline {
+    display:inline;
+    margin-right: 10px;
+    margin-left:10px;
+    color:black;
     text-align: right;
     display: inline;
     padding: 0rem 0.5rem;
@@ -106,39 +110,31 @@ li {
 
 /** navigation **/
 
-.navigation {  
-    background-color: var(--primary-color); 
-    color:black;
+.navigation {
+    background-color: var(--primary-color);
+    color: black;
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
-    border-bottom: 2px solid #0891b2;
     border-bottom-right-radius: 1rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-   
+    margin:0.5%;
 }
 
 .navigation .nav-brand {
-    font-family: "Mali", cursive;
+    font-family: "Dancing Script rev=1";
     font-weight: bold;
     text-align: left;
     font-size: 200%;
-    text-align: right;
+    padding-top: 2%;
+    padding-left: 3%
    
 }
-
 .navigation .nav-pills {
     text-align: right;
 }
 
 .navigation .link {
-    /* color: #f3f4f6; */
-    color:black;
-    align-content: flex-end;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    text-align: right;
+   color:black;
+   
 }
 
 .navigation .link-active {
