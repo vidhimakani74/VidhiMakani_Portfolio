@@ -5,11 +5,10 @@
     /* --primary-color: #80BD9E; */
     --off-white: #e5e7eb;
     /* --off-white:  #80BD9E; */
-    --dark-gray: #6B7280;
+    --dark-gray:#475569;
 }
 
 body {
-    
     font-family: "Mali", cursive;
     font-weight: 400;
     font-size: 16px;
@@ -17,9 +16,15 @@ body {
     
 }
 
+
+div{
+    display: block;
+}
+
 h3{
    color: black;
 }
+
 
 hr {
     margin: 2rem 0rem;
@@ -30,10 +35,22 @@ li {
     text-align: -webkit-match-parent;
 }
 
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
 /** spaces **/
 
 .margin-md {
-    margin: 2rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
 
 /** container **/
@@ -48,9 +65,8 @@ li {
 
 /** links **/
 .link {
-    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     margin: 0.5rem;
 }
 
@@ -99,13 +115,12 @@ li {
 
 .list-item-inline {
     display:inline;
-    margin-right: 10px;
-    margin-left:10px;
+    margin-left:auto;
     color:black;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: right;
-    display: inline;
-    padding: 0rem 0.5rem;
-   
+ 
 }
 
 /** navigation **/
@@ -117,10 +132,11 @@ li {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     margin:0.5%;
+
 }
 
 .navigation .nav-brand {
-    font-family: "Dancing Script rev=1";
+    font-family: "Mali", cursive;
     font-weight: bold;
     text-align: left;
     font-size: 200%;
@@ -128,18 +144,25 @@ li {
     padding-left: 3%
    
 }
+
+.list-non-bullet {
+    list-style: none;
+}
+
 .navigation .nav-pills {
     text-align: right;
 }
 
 .navigation .link {
-   color:black;
-   
+    
+    color: black;
+    font-size:  120%
+
 }
 
 .navigation .link-active {
-    font-weight: bold;
-    font-size:  100%
+    font-weight: bolder;
+    font-size:  140%
 }
 
 /** header **/
@@ -158,10 +181,11 @@ li {
 }
 
 .hero .hero-heading {
+    color: var(--dark-gray);
     text-align: center;
     font-size: large;
     padding-top: 1rem;
-    color: var(--dark-gray);
+
 }
 
 .hero .hero-subheading {
