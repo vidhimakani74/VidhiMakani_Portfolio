@@ -197,14 +197,14 @@ ul {
 .hero .hero-heading {
     color: var(--dark-gray);
     text-align: center;
-    font-size: large;
+    font-size: larger;
     padding-top: 1rem;
 
 }
 
 .hero .hero-subheading {
     text-align: center;
-    font-size: small;
+    font-size:medium;
     padding-top: 1rem;
     color: var(--dark-gray);
 }
