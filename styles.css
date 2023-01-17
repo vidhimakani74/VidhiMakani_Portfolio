@@ -142,7 +142,7 @@ ul {
 .navigation {
     background-color: var(--primary-color);
     color: black;
-    padding: 0.5rem;
+    padding: 0.05rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     margin:0.5%;
@@ -252,11 +252,39 @@ ul {
 .section .ow .highlight{
     color: var(--primary-color);
 }
+
+/* contact me */
+.contact{
+    text-align: center;
+}
+table{
+    margin: auto;
+    text-decoration:double;
+}
+.owcontact{
+    background-color: var(--off-white);
+    border-radius: 2rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-subheading{
+    text-align: center;
+    font-size:medium;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+    max-width: 80%;
+    margin: auto;
+}
+
 /** footers **/
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
+    padding-bottom: 0.5rem;
     text-align: center;
     color: black;
     border-top-right-radius: 1rem;
