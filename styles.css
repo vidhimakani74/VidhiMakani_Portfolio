@@ -183,7 +183,7 @@ ul {
 
 .hero {
     padding: 2rem;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
 
 }
 
@@ -225,9 +225,7 @@ ul {
     max-width: 50%;
     width: 350px;
     display: block;
-    margin: auto;
-    padding-bottom: 0%;
-    
+    padding-bottom: 0%;   
 }
 
 /** sections **/
