@@ -138,7 +138,9 @@ ul {
 }
 
 /** navigation **/
-
+nav{
+    display: block;
+}
 .navigation {
     background-color: var(--primary-color);
     color: black;
