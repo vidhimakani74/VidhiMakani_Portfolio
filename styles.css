@@ -148,9 +148,6 @@ nav{
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     margin:0.5%;
-    position: sticky;
-    top:0;
-    width: 100%;
 
 }
 
@@ -160,10 +157,9 @@ nav{
     text-align: left;
     font-size: 200%;
     padding-top: 2%;
-    padding-left: 3%;
-    position: relative;
+    padding-left: 3%
+   
 }
-
 
 .list-non-bullet {
     list-style: none;
@@ -289,16 +285,13 @@ table{
 
 .footer {
     background-color: var(--primary-color);
-    padding: 0.5rem;
-    padding-bottom: 0.05rem;
+    padding: 1rem 1rem;
+    padding-bottom: 0.5rem;
     text-align: center;
     color: black;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    /* margin:0.5%; */
-    position: sticky;
-    bottom:0;
-    width: 100%;
+    margin:0.5%;
 }
 
 .footer .link {
@@ -308,7 +301,6 @@ table{
 .footer .footer-header {
     font-weight: bold;
     font-size: large;
-    padding: 0;
 }
 
 .footer ul {
@@ -316,9 +308,9 @@ table{
 }
 
 /** projects **/
-/* .showcase-list { */
-    /* padding: 2rem; */
-/* } */
+.showcase-list {
+    padding: 2rem;
+}
 
 .b1{
     border: 5px solid #0891b2;
@@ -328,9 +320,9 @@ table{
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 25px;
-    /* margin-bottom: 2px; */
+    margin-bottom: 25px;
     padding-top:20px;
-    /* padding-bottom: 2px; */
+    padding-bottom: 25px;
     
 }
 
@@ -361,8 +353,3 @@ table{
     margin:0em;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
